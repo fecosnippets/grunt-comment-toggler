@@ -69,7 +69,7 @@ module.exports = function(grunt) {
 
             if (cmd !== commands.search && line.match(endRegex)) {
                 operation.command = commands.search;
-                operation.command.regex = startRegex;
+                //operation.command.regex = startRegex;
 
                 if (exports.options.removeCommands) {
                     lines[i] = "";
